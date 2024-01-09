@@ -1,4 +1,4 @@
-.banner {
+.banner-section {
 
     width: 1320px;
     height: 600px;
@@ -6,7 +6,11 @@
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png);
 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
 }
 
 .banner-title {
@@ -40,14 +44,19 @@
     margin: 0px;
 }
 
+.banner-section {
+    clear: both;
+}
+
 .discount {
     width: 1600px;
-    height: 7335px;
     background: #FFF;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
+    margin-bottom: 0px;
+
 
 }
 
@@ -61,6 +70,8 @@
     line-height: normal;
     margin: 0px;
     padding-bottom: 48px;
+
+    height: 107px;
 }
 
 .discount h4 {
@@ -73,9 +84,11 @@
     line-height: normal;
     margin: 0px;
     padding-bottom: 16px;
+    height: 29px;
 }
 
 .discount h2 {
+    height: 58px;
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -85,4 +98,203 @@
     line-height: normal;
     margin: 0px;
     padding-bottom: 48px;
+}
+
+.discount .new-year {
+    height: 500px;
+    flex-shrink: 0;
+    padding-bottom: 0px;
+    margin: 0px;
+
+}
+
+.discount {
+    clear: both;
+}
+
+.welcome-party {
+    margin-top: 120px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+.first-container {
+    margin-top: 0px;
+    margin-left: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.welcome-title {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.welcome-description {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    /* 166.667% */
+}
+
+.join {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    margin-top: 48px;
+    margin-left: 30px;
+
+}
+
+.year {
+    padding-right: 140px;
+}
+
+/* .welcome-party {
+    clear: both;
+} */
+
+.schedule {
+    margin-top: 120px;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.info {
+    padding-top: 80px;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+    padding-bottom: 0px;
+}
+
+.first {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.info>h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.join-now {
+    border: 0px;
+    border-radius: 15px;
+    background: #F00;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    height: 60px;
+    width: 200px;
+    margin-left: 550px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.offer {
+    width: 1600px;
+    height: 600px;
+    background: #FFF;
+}
+
+.offer-first h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.offer-first h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.offer-first p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
