@@ -318,11 +318,7 @@
 
 }
 
-/* .square {
-    height: 600px;
-    width: 463px;
-    border: 1px solid white;
-} */
+
 
 .circle {
     padding: 35px;
@@ -421,8 +417,7 @@
     position: absolute;
     bottom: 300px;
     right: 280px;
-    /* left: 1130px;
-    margin-top: 70px; */
+
 }
 
 .awesome {
@@ -479,4 +474,74 @@
     border: 3px solid rgb(28, 0, 92);
     border-radius: 20px;
     box-shadow: 2px 2px 6px rgb(5, 5, 105);
+}
+
+.subscription {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscription-img {
+    /* width: 150px;
+    height: 150px;
+    flex-shrink: 0; */
+    text-align: center;
+    margin-left: 585px;
+    margin-top: 80px;
+
+}
+
+.sub-text {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.sub-para {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 212px;
+    /* 160% */
+}
+
+input[type="text"] {
+    margin-top: 30px;
+    margin-left: 336px;
+    position: relative;
+    padding: 25px 250px 25px 30px;
+    border-radius: 50px 0 0 50px;
+    border: 0;
+}
+
+input[type="submit"] {
+    position: relative;
+    padding: 25px 58px;
+    border-radius: 0 50px 50px 0;
+    color: #FFF;
+    border: 0;
+    background-color: #F00;
+    font-family: inter;
+    font-weight: bold;
+    left: -5px;
+    cursor: crosshair;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(41, 0, 112);
 }
