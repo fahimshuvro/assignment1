@@ -356,27 +356,24 @@
     /* 160% */
 }
 
-.sales {
-    width: 1600px;
-    height: 1000px;
+.sale-contain {
     background: #FFF;
-    display: block;
     text-align: center;
-    align-items: center;
+    width: 1320px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.sales h3 {
+.sale-title {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
 }
 
-.redlight {
+.red-color {
     color: #F00;
     text-align: center;
     font-family: Merriweather;
@@ -386,32 +383,100 @@
     line-height: normal;
 }
 
-.sales h1 {
+.sale-heading {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
+    font-weight: 900;
+    margin: 16px 0 28px 0;
+}
+
+.sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 126px;
+    margin-bottom: 70px;
+}
+
+.sale-image {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.sale-box {
+    position: relative;
+}
+
+.sale-propic {
+    position: relative;
+    bottom: -4px;
+}
+
+.discount-image {
+    position: absolute;
+    bottom: 300px;
+    right: 280px;
+    /* left: 1130px;
+    margin-top: 70px; */
+}
+
+.awesome {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.awesome h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.awesome h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+
 }
 
-.sales p {
-    width: 1068px;
+.awesome p {
     color: rgba(7, 2, 17, 0.60);
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 32px;
     /* 160% */
 }
 
-.redsquare {
-    height: 230px;
-    background-color: #F00;
-    width: 1600px;
-    color: #F00;
-    border: 0px solid red;
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
 
+.photos>div img {
+    width: 100%;
+}
+
+.photos>div img:hover {
+    border: 3px solid rgb(28, 0, 92);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgb(5, 5, 105);
 }
