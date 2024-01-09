@@ -263,14 +263,23 @@
 }
 
 .offer {
-    width: 1600px;
-    height: 600px;
+    width: 1320px;
+    height: 500px;
     background: #FFF;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .offer-first h3 {
     color: #F00;
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -297,4 +306,112 @@
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+}
+
+.group96 {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .square {
+    height: 600px;
+    width: 463px;
+    border: 1px solid white;
+} */
+
+.circle {
+    padding: 35px;
+    border: 15px solid red;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+.offer-third {
+    margin-left: 80px;
+}
+
+.offer-third h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer-third p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.sales {
+    width: 1600px;
+    height: 1000px;
+    background: #FFF;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sales h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.redlight {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sales h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sales p {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+.redsquare {
+    height: 230px;
+    background-color: #F00;
+    width: 1600px;
+    color: #F00;
+    border: 0px solid red;
+
 }
